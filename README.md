@@ -1,0 +1,2 @@
+# bagging_confidence_interval
+Applied the concept of bagging on boston housing price prediction dataset creating 30 bags, and trained 30 regression DTs, calculated their train MSE score, thentheir MSE score and oob MSE score on the population data, then calculated a 95% confidence interval (C.I.) on doing the previous task 35 times and storing the mse and oob mse scores and using that as a sample, then made 10 samples from this sample to get the population mean and std on 95% confidence interval using the central limit theorem.
